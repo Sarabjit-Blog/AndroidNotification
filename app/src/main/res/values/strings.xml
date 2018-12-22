@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidNotifications</string>
+    <string name="action_style_notification">Notification Actions</string>
+    <string name="heads_up_style_notification">Heads Up Notification</string>
+    <string name="large_text_style_notification">Large Text Notification</string>
+    <string name="notifications_in_android">Notifications in Android</string>
+    <string name="inbox_style_notification">Inbox Notification</string>
+    <string name="message_style_notification">Message Notification</string>
+    <string name="large_notification_text">Android is a mobile operating system developed by Google.\n based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets.\n In addition, Google has further developed Android TV for televisions, Android Auto for cars, and Wear OS for wrist watches, each with a specialized user interface.\n Variants of Android are also used on game consoles, digital cameras, PCs and other electronics.</string>
+</resources>

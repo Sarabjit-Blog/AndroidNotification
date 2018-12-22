@@ -1,0 +1,6 @@
+
+ysquid:S1192-"VDefine a constant instead of duplicating this literal "notificationChannelID" 8 times.(ø»Áþùÿÿÿÿ8íÅß³õ,
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(¼Øûì
+ksquid:S11926"HDefine a constant instead of duplicating this literal "dismiss" 6 times.(ø—²øùÿÿÿÿ8ŸÐ¹Éõ,
+fsquid:S1192="HDefine a constant instead of duplicating this literal "DISMISS" 6 times.(‚ª™ 8ŸÐ¹Éõ,
+ysquid:S00115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ñ€¨å8°¸õ°õ,
