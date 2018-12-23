@@ -1,76 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="blog.sarabjit.androidnotifications.MainActivity">
+    android:fillViewport="true">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="40dp"
-        android:padding="20dp"
-        android:background="@color/colorAccent"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:text="@string/notifications_in_android" />
+        android:orientation="vertical"
+        tools:context="blog.sarabjit.androidnotifications.MainActivity">
 
-    <TextView
-        android:id="@+id/notificationAction"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:padding="7dp"
-        android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:text="@string/action_style_notification" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/notifications_in_android"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/headsUpNotification"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:padding="7dp"
-        android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:text="@string/heads_up_style_notification" />
+        <TextView
+            android:id="@+id/notificationAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/action_style_notification"
+            android:textColor="@android:color/white" />
 
-    <TextView
-        android:id="@+id/largeTextNotification"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:padding="7dp"
-        android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:gravity="center"
-        android:text="@string/large_text_style_notification" />
+        <TextView
+            android:id="@+id/headsUpNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/heads_up_style_notification"
+            android:textColor="@android:color/white" />
 
-    <TextView
-        android:id="@+id/inboxNotification"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:padding="7dp"
-        android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:gravity="center"
-        android:text="@string/inbox_style_notification" />
+        <TextView
+            android:id="@+id/largeTextNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/large_text_style_notification"
+            android:textColor="@android:color/white" />
 
-    <TextView
-        android:id="@+id/messageNotification"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:padding="7dp"
-        android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:gravity="center"
-        android:text="@string/message_style_notification" />
+        <TextView
+            android:id="@+id/inboxNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/inbox_style_notification"
+            android:textColor="@android:color/white" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/messageNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/message_style_notification"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/imageNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/image_style_notification"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/replyNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/reply_notification"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/mediaNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/media_notification"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+</ScrollView>
